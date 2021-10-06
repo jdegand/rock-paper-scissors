@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <header class="score-container">
+    <div class="score-logo-div">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div>
+      <ul class="score-column">
+        <li>Score</li>
+        <li class="score-count">0</li>
+      </ul>
+    </div>
+  </header>
+  <section class="game-body">
+
+    <button data-selected="paper" class="button paper">
+      <img src="images/icon-paper.svg" alt="Paper">
+      <span class="screen-reader screen-reader-focusable">Paper</span>
+    </button>
+
+    <button data-selected="scissors" class="button scissors">
+      <img src="images/icon-scissors.svg" alt="Scissors">
+      <span class="screen-reader screen-reader-focusable">Scissors</span>
+    </button>
+
+    <button data-selected="rock" class="button rock">
+      <img src="images/icon-rock.svg" alt="Rock">
+      <span class="screen-reader screen-reader-focusable">Rock</span>
+    </button>
+
+  </section>
+
+  <section class="step-234 hidden">
+    <h2>You Picked</h2>
+    <h2>The House Picked</h2>
+    <div class="player-choice"></div>
+    <div class="ai-choice"></div>
+  </section>
+  <section class="play-again hidden">
+      <h3 class="result"></h3>
+      <button class="play-again-button">Play Again</button>
+  </section>
+
+  <footer>
+    <button class="rules-button">Rules</button>
+    <div id="rulesModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-flex">
+          <h1>Rules</h1>
+          <img class="cross" src="images/icon-close.svg" alt="close">
+        </div>
+        <img src="images/image-rules.svg" alt="">
+      </div>
+    
+    </div>
+
+  </footer>
+</body>
+</html>
