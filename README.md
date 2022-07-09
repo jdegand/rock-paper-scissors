@@ -56,6 +56,6 @@ Users should be able to:
 ### Useful resources
 
 - [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp) - Modal
-- [Go Make Things](https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link)
+- [Go Make Things](https://gomakethings.com/hidden-content-for-better-a11y/#hiding-the-link) - a11y & hidden content
 - [Blog](https://web.archive.org/web/20200929210549/https://paulund.co.uk/how-to-create-different-shapes-in-css) - CSS shapes
 - [Codepen](https://codepen.io/MattWindle/pen/perZRG) - 2 x 2 Grid
